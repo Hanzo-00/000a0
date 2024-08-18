@@ -1,70 +1,260 @@
+
+
+
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
+   <meta charset="UTF-6">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyGenHamster</title>
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    background: url('https://f.top4top.io/p_31468ay0x1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 10px;
+}
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Promo Code Generator</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>KeyGen</title>
+    
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            text-align: center;
+            padding-top: 20%;
+        }
+        .popup-content {
+            background: #333;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        .btn-close {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #e74c3c;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn-close:hover {
+            background: #c0392b;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Game Promo Code Generator</h1>
-        <div class="form-group">
-            <label for="gameSelect">Select Game</label>
-            <select id="gameSelect">
-                <option value="1">Riding Extreme 3D</option>
-                <option value="2">Chain Cube 2048</option>
-                <option value="3">My Clone Army</option>
-                <option value="4">Train Miner</option>
-                <option value="5">MergeAway (NEW)</option>
-                <option value="6">Twerk Race (NEW)</option>
+    <!-- نافذة منبثقة -->
+    <div id="subscriptionPopup" class="popup">
+        <div class="popup-content">
+            <h2>للاستمرار، يرجى الاشتراك في قناتنا على يوتيوب!</h2>
+            <h2>Subscribe to our YouTube channel!</h2>
 
-            </select>
+            <a href="https://www.youtube.com/@mr.respoect" target="_blank">
+                <button class="btn-close">subscribe now... اشترك الآن</button>
+            </a>
+            <button onclick="closePopup()" class="btn-close"> get started....حسنا لنبدء</button>
         </div>
-        <div class="form-group">
-            <label id="keyCountLabel" for="keyCountSelect">Number of keys:</label>
-            <select id="keyCountSelect">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="8">8</option>
-                
-            </select>
+    </div>
+
+    <script>
+        // عرض النافذة المنبثقة
+        function showPopup() {
+            document.getElementById('subscriptionPopup').style.display = 'block';
+        }
+
+        // إغلاق النافذة المنبثقة
+        function closePopup() {
+            document.getElementById('subscriptionPopup').style.display = 'none';
+        }
+
+        // عرض النافذة عند تحميل الصفحة
+        window.onload = function() {
+            showPopup();
+        };
+    </script>
+
+
+
+<style>
+
+.hamster-key-generator{font-family:Poppins,sans-serif;line-height:1.6;padding:20px;max-width:480px;margin:0 auto}.hamster-key-generator h1{font-size:24px;color:#FF5F1F;margin-bottom:20px;text-align:center}.hamster-key-generator .form-group{margin-bottom:20px}.hamster-key-generator label{display:block;margin-bottom:8px;font-weight:500}.hamster-key-generator button,.hamster-key-generator select{width:100%;padding:8px;margin:5px;font-size:16px;border:1px solid #e0e0e0;border-radius:30px}.hamster-key-generator button{background-color:#FF7F50;color:#fff;border:none;cursor:pointer;transition:background-color .3s}.hamster-key-generator button:hover{background-color:#FF5F1F}.hamster-key-generator .progress-bar{background-color:#e0e0e0;border-radius:4px;height:10px;margin-top:20px;overflow:hidden}.hamster-key-generator .progress-bar div{height:100%;background-color:#FF5F1F;width:0;transition:width .5s}.hamster-key-generator #progressLog,.hamster-key-generator #progressText{margin-top:10px;font-size:14px;text-align:center}.hamster-key-generator .key-item{display:flex;align-items:center;margin-top:15px}.hamster-key-generator .key-item input{flex:1;padding:8px;font-size:14px;border:1px solid #e0e0e0;border-radius:4px;margin-right:10px}.hamster-key-generator .copyKeyBtn{background-color:#FF7F50;padding:8px 12px;font-size:14px}.hamster-key-generator .footer{margin-top:20px;font-size:12px;color:#777;text-align:center}.hamster-key-generator .hidden{display:none}
+</style>
+<div class="hamster-key-generator">
+    <h1>عليك الاشتراك في قناه اليوتيوب لعمل الاكواد بشكل صحيح
+You must subscribe to the YouTube channel to make the codes correctly</h1>
+     <div id="formContainer">
+                 <div class="form-group" id="gameSelectGroup">
+                <label for="gameSelect">Choose the service type: ....اختر نوع الخدمة:
+</label>
+                <select id="gameSelect">
+                    <option value="1">Bike Extreme 3D</option>
+                    <option value="2">Chain Cube 2048</option>
+                    <option value="3">My Clone Army</option>
+                    <option value="4">Train Miner</option>
+                    <option value="5">Merge Away</option>
+                    <option value="6">Twerk Race 3D</option>
+
+                </select>
+            <div class="form-group" id="keyCountGroup">
+                <label for="keyCountSelect">Select Number of Keys حدد عدد المفاتيح :
+</label>
+                <select id="keyCountSelect">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <button id="startBtn">اضغط هنا لاتسخراج الاكواد Click here to extract the codes</button>
         </div>
-        <button id="startBtn">Generate Keys</button>
+
         <div id="progressContainer" class="hidden">
             <div class="progress-bar">
                 <div id="progressBar"></div>
             </div>
-            <div id="progressText">0%</div>
-            <div id="progressLog">Starting...</div>
+            <p id="progressText">0%</p>
+            <p id="progressLog">Starting...</p>
         </div>
+
         <div id="keyContainer" class="hidden">
-            <h3 id="generatedKeysTitle" class="hidden">Generated Keys:</h3>
+            <h2 id="generatedKeysTitle" class="hidden">Generated Keys</h2>
             <div id="keysList"></div>
             <button id="copyAllBtn" class="hidden">Copy All Keys</button>
-            <div id="copyStatus" class="hidden">Copied!</div>
-            <button id="generateMoreBtn">Generate More Keys</button>
         </div>
-        <div class="mycodes">
-            <p>
-                The Key Generation may take upto 7-10 mins<br>
-                So do Kindly wait - If you feel the Key Generation is not working then <a href="https://telegram.me/Insta_Buy_Follower">Contact Creator</a>
-            </p>
-            <button id="ShowKeysBtn">My Codes</button>
-            <div id="generatedCodesContainer" style="display:none;">
-                <h3>Today's Generated Codes:</h3>
-                <ul id="generatedCodesList"></ul>
-            </div>
 
-        </div>
+        <p id="keyCountLabel">Number of keys-- عدد المفاتيح</p>
+
+        <button id="generateMoreBtn" class="hidden">Generate More Keys</button>
+        <p id="copyStatus" class="hidden">Keys copied to clipboard!</p>
+        <p id="copyStatus" class="hidden">تم نسخ المفاتيح إلى الحافظة!</p>
+
+        
         <div class="footer">
-            <p>Disclaimer: This tool is for educational purposes only. Use responsibly.</p>
-            <button id="creatorChannelBtn">Contact Creator 🤖</button> <br><br>
-            <button id="telegramChannelBtn">Check out Our Telegram Channel 🆔</button>
+            <button id="sourceCode">Source code</button>
+           <style>
+    #sourceCode {
+        display: none;
+    }
+</style>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
+<div class="black-rectangle">
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .telegram-box {
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            background-color: #0088cc;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .telegram-box:hover {
+            background-color: #006699;
+        }
+    </style>
+</head>
+<body>
+    <div class="telegram-box" onclick="window.open('https://t.me/key4ham', '_blank')">
+       
+              هذه الصفحة الرسمية على موقع التيلجرام لمصمم موقع المفاتيح، اضغط هنا للدخول
+       
+
+    </div>
+</body>
+</html>
+
+    </div>
+</body>
+</html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نص بلون أحمر في مستطيل أسود</title>
+    <style>
+        .black-rectangle {
+            background-color: #000000; /* اللون الأسود للمستطيل */
+            color: #FF0000; /* لون النص أحمر */
+            padding: 10px; /* المسافة الداخلية للمستطيل */
+            border-radius: 10px; /* زوايا دائرية للمستطيل */
+            width: fit-content; /* عرض المستطيل يتناسب مع النص */
+            margin: 20px auto; /* توسيط المستطيل أفقياً */
+            text-align: center; /* توسيط النص داخل المستطيل */
+            font-size: 10px; /* حجم النص */
+        }
+    </style>
+</head>
+<body>
+    <div class="black-rectangle">
+    <h1>مقطع فيديو من قناتنا على يوتيوب</h1>
+    <h1>Video clip from our YouTube channel
+        <h1> ⇩ 👇 ⇩</h1>
+
+    </div>
+</body>
+</html>
+</h1>
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع مع فيديو يوتيوب</title>
+    <style>
+        /* لضبط الفيديو في منتصف الصفحة */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* يملأ كامل ارتفاع الشاشة */
+        }
+        iframe {
+            width: 80%; /* عرض الفيديو 80% من عرض الصفحة */
+            max-width: 560px; /* الحد الأقصى لعرض الفيديو */
+            height: 315px; /* ارتفاع الفيديو */
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3lP4A-KRdE8" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+    </div>
+</body>
+</html>
+
+
+
+     
