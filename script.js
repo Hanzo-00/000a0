@@ -45,7 +45,6 @@ document.addEventListener('DOMContentLoaded', () => {
             promoId: '61308365-9d16-4040-8bb0-2f4a4c69074c',
             eventsDelay: 20000,
             attemptsNumber: 10,
-            
         },
          7 : {
             name: 'Polysphere',
