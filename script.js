@@ -68,6 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
             attemptsNumber: 16,
         }
     };
+    
     const startBtn = document.getElementById('startBtn');
     const keyCountSelect = document.getElementById('keyCountSelect');
     const keyCountLabel = document.getElementById('keyCountLabel');
