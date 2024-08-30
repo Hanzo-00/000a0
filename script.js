@@ -59,7 +59,15 @@ document.addEventListener('DOMContentLoaded', () => {
             promoId: 'b2436c89-e0aa-4aed-8046-9b0515e1c46b',
             eventsDelay: 20000,
             attemptsNumber: 16,
+        },
+        9: {
+            name: 'Gangs Wars',
+            appToken: 'b6de60a0-e030-48bb-a551-548372493523',
+            promoId: 'dfeb4d7f-08c4-4e82-a0a6-6b51151fe468',
+            timing: 20000, // 20 seconds
+            attempts: 20,
         }
+        
     };
     
     const startBtn = document.getElementById('startBtn');
