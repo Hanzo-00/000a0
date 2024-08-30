@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
         9: {
             name: 'Gangs Wars',
             appToken: 'b6de60a0-e030-48bb-a551-548372493523',
-            promoId: 'dfeb4d7f-08c4-4e82-a0a6-6b51151fe468',
+            promoId: 'c7821fa7-6632-482c-9635-2bd5798585f9',
             eventsDelay: 20000,
             attemptsNumber: 10,
         }
