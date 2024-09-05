@@ -66,8 +66,16 @@ document.addEventListener('DOMContentLoaded', () => {
             promoId: '112887b0-a8af-4eb2-ac63-d82df78283d9',
             eventsDelay: 20000,
             attemptsNumber: 16,
+        },
+        10: {
+            name: 'Stone Age',
+            appToken: '04ebd6de-69b7-43d1-9c4b-04a6ca3305af',
+            promoId: '04ebd6de-69b7-43d1-9c4b-04a6ca3305af',
+            eventsDelay: 20000,
+            attemptsNumber: 16,
         }
     };
+    
     
     const startBtn = document.getElementById('startBtn');
     const keyCountSelect = document.getElementById('keyCountSelect');
