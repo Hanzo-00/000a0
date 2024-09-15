@@ -80,8 +80,16 @@ document.addEventListener('DOMContentLoaded', () => {
             promoId: 'bc72d3b9-8e91-4884-9c33-f72482f0db37',
             eventsDelay: 20000,
             attemptsNumber: 16,
+        },
+        12: {
+            name: 'Hide Ball',
+            appToken: '4bf4966c-4d22-439b-8ff2-dc5ebca1a600',
+            promoId: '4bf4966c-4d22-439b-8ff2-dc5ebca1a600',
+            eventsDelay: 20000,
+            attemptsNumber: 16,
         }
     };
+	
     
     
     const startBtn = document.getElementById('startBtn');
