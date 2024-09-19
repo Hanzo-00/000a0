@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
             appToken: '4bdc17da-2601-449b-948e-f8c7bd376553',
             promoId: '4bdc17da-2601-449b-948e-f8c7bd376553',
             eventsDelay: 20000,
-            attemptsNumber: 10,
+            attemptsNumber: 30,
         },
         15: {
             name: 'Infected Frontier',
