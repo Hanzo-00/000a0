@@ -99,8 +99,8 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'Count Masters',
             appToken: '4bdc17da-2601-449b-948e-f8c7bd376553',
             promoId: '4bdc17da-2601-449b-948e-f8c7bd376553',
-            eventsDelay: 30000,
-            attemptsNumber: 20,
+            eventsDelay: 40000,
+            attemptsNumber: 40,
         },
         15: {
             name: 'Infected Frontier',
