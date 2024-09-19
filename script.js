@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'Count Masters',
             appToken: '4bdc17da-2601-449b-948e-f8c7bd376553',
             promoId: '4bdc17da-2601-449b-948e-f8c7bd376553',
-            eventsDelay: 20000,
+            eventsDelay: 30000,
             attemptsNumber: 30,
         },
         15: {
